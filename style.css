@@ -30,10 +30,6 @@ body {
   z-index: 2;
 }
 
-/* .brand-image img {
-  width: 30vw;
-  height: 5vh;
-} */
 /* Container which contain brand image */
 .brand-image {
   margin-left: 4vw;
@@ -94,7 +90,6 @@ body {
     flex-direction: column;
     align-items: flex-start;
     background-color: var(--White);
-    /* position: relative; */
     z-index: 2;
   }
   .nav-links {
@@ -134,7 +129,6 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--Very-Light-Gray);
-    /* background-color: red; */
   }
 
   .image-mockups {
@@ -167,26 +161,21 @@ body {
   }
 
   .button {
-    padding: 15px 32px;
     border: none;
     border-radius: 35px;
     cursor: pointer;
     font-weight: 800;
-    font-size: 1rem;
-    color: white;
-    /* width: 50vw; */
-    /* height: 8vh; */
-    /* margin-left: 20vw; */
-    /* margin-bottom: 8vh; */
+    font-size: 0.92rem;
+    color: var(--Very-Light-Gray);
     background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    width: 43vw;
+    height: 6vh;
   }
 
   .button-top {
-    width: 47vw;
     margin-top: 30px;
     align-self: center;
     margin-right: 31px;
-    height: 6vh;
     margin-bottom: 12vh;
   }
 
@@ -221,9 +210,6 @@ body {
   }
 
   .para-features {
-    /* font-size: 1.1rem;
-    line-height: 1.8;
-    color: var(--Grayish-Blue); */
     font-size: 1rem;
     line-height: 1.7;
     color: var(--Grayish-Blue);
@@ -245,7 +231,6 @@ body {
     margin-right: 5vw;
     display: flex;
     flex-direction: column;
-    /* gap: 1.5vh; */
     margin-bottom: 80px;
   }
 
@@ -266,7 +251,6 @@ body {
   .image-article img {
     width: 90vw;
     height: 30vh;
-    /* border-radius: 5px; */
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
@@ -279,11 +263,6 @@ body {
   }
 
   .article-title {
-    /* font-size: 1.7rem;
-    font-weight: 300;
-    color: var(--Dark-Blue);
-    margin-left: 3vw; */
-
     width: 72vw;
     font-size: 1.1rem;
     font-weight: 300;
@@ -292,11 +271,6 @@ body {
   }
 
   .article-detail {
-    /* font-size: 1.1rem;
-    line-height: 1.5;
-    color: var(--Grayish-Blue);
-    margin-left: 5vw; */
-
     font-size: 0.88rem;
     line-height: 1.4;
     color: var(--Grayish-Blue);
@@ -334,7 +308,6 @@ body {
   .below-links li {
     list-style: none;
     padding: 10px;
-    /* align-self: center; */
   }
 
   .below-links li a {
@@ -353,8 +326,6 @@ body {
   .copyright {
     color: var(--Grayish-Blue);
     margin-top: 50px;
-    /* margin-bottom: 250px; */
     font-size: 1.2rem;
-    /* padding: 80px; */
   }
 }
