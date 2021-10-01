@@ -121,7 +121,7 @@ body {
 
   .nav-links.active {
     display: flex;
-    box-shadow: 80px 72px 280px 150px hsl(233, 8%, 62%);
+    box-shadow: 80px 72px 278px 45px hsl(233, 26%, 24%);
   }
 
   .button-container {
