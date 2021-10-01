@@ -52,10 +52,6 @@ body {
   color: black;
 }
 
-.nav-links li:hover {
-  /* background-color: grey; */
-}
-
 .hamburger-button {
   position: absolute;
   top: 0.75rem;
@@ -360,6 +356,10 @@ body {
     height: 7vh;
   }
 
+  .button:hover {
+    filter: brightness(120%);
+  }
+
   .nav-links ul {
     gap: 1vw;
   }
@@ -368,34 +368,21 @@ body {
     color: var(--Grayish-Blue);
     font-size: 0.9rem;
     position: relative;
-    
   }
 
-   .nav-links li a::after{
-    content: '';
+  .nav-links li a::after {
+    content: "";
     position: absolute;
     left: 0;
     top: 52px;
-    /* right: 0; */
-    /* bottom: -10; */
     height: 4px;
     width: 0;
     background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    /* transform: scaleX(0); */
-    
   }
-  
-  .nav-links li a:hover::after{
-    width: 100%;
-    
-  }
-  
-  
-  /* .nav-links li a:hover::before,
-  .nav-links li a:focus::before{
-    transform: scaleX(1);
 
-  }  */
+  .nav-links li a:hover::after {
+    width: 100%;
+  }
 
   .mockups-section {
     display: flex;
@@ -546,6 +533,11 @@ body {
     margin-left: 27px;
   }
 
+  .article-title:hover {
+    color: var(--Lime-Green);
+    cursor: pointer;
+  }
+
   .article-detail {
     font-size: 0.8rem;
     line-height: 1.4;
@@ -572,6 +564,11 @@ body {
     display: flex;
     margin-top: 20px;
     justify-content: space-around;
+    cursor: pointer;
+  }
+
+  .social-icon:hover {
+    fill: var(--Lime-Green);
   }
 
   .last-logo {
@@ -598,16 +595,9 @@ body {
     font-size: 0.9rem;
   }
 
-  /* .below-links li a:hover{ */
-    /* background-color: red; */
-    /* } */
-    
-    /* .nav-links li a:hover { */
-    /* background-color: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%)); */
-    /* color: red; */
-  /* } */
-  
-  
+  .below-links li a:hover {
+    color: var(--Lime-Green);
+  }
 
   .btn-copyright {
     display: flex;
