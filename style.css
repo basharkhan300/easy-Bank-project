@@ -90,6 +90,7 @@ body {
   }
   .nav-links {
     background-color: var(--White);
+    /* background-color: --Bright-Cyan */
     position: absolute;
     top: 15vh;
     left: 0;
@@ -104,6 +105,7 @@ body {
     width: 100%;
     flex-direction: column;
     justify-content: space-around;
+    /* background-color: red; */
   }
 
   .nav-links li {
@@ -119,6 +121,7 @@ body {
 
   .nav-links.active {
     display: flex;
+    box-shadow: 80px 72px 280px 150px hsl(233, 8%, 62%);
   }
 
   .button-container {
